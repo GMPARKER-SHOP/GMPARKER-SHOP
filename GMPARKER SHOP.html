@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMPARKER SHOP - Cepat, Murah, Berkualitas</title>
+    <style>
+        :root {
+            --neon-blue: #00d2ff;
+            --neon-purple: #3a7bd5;
+            --dark-bg: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --text-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid var(--neon-blue);
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--neon-blue);
+            text-shadow: 0 0 10px var(--neon-blue);
+        }
+
+        .section-title {
+            background: linear-gradient(90deg, var(--neon-blue), transparent);
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-top: 40px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .item-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid var(--neon-blue);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .item-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .price {
+            color: #00ff88;
+        }
+
+        /* Tombol Neon Biru Gradasi */
+        .btn-order {
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            padding: 12px 20px;
+            margin: 5px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+            box-shadow: 0 0 10px rgba(0, 210, 255, 0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .btn-order:hover {
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.8);
+            transform: translateY(-2px);
+            filter: brightness(1.2);
+        }
+
+        .btn-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .payment-info {
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border: 1px dashed var(--neon-blue);
+        }
+
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-btn {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .social-btn:hover {
+            background: var(--neon-blue);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #888;
+            font-weight: bold;
+        }
+
+        .tagline {
+            color: var(--neon-blue);
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>GMPARKER SHOP</h1>
+        <span class="tagline">⚡ CEPAT - MURAH - BERKUALITAS ⚡</span>
+    </header>
+
+    <!-- RENDER & EDIT -->
+    <div class="section-title">✨ RENDER & EDIT</div>
+    
+    <div class="item-card">
+        <div class="item-info"><span>🖼️ Render 4K</span> <span class="price">4K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 1</a>
+            <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 2</a>
+        </div>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>🎨 Render Edit 2K</span> <span class="price">2K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 1</a>
+            <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 2</a>
+        </div>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>🎬 JJ Render 2K</span> <span class="price">2K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285849090562?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 1</a>
+            <a href="https://wa.me/+6283837104931?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Admin 3</a>
+        </div>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>🖼️ Edit Banner YouTube</span> <span class="price">5K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 2</a>
+            <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 1</a>
+            <a href="https://wa.me/+6283837104931?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 3</a>
+        </div>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>💎 Edit Logo</span> <span class="price">5K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285849090562?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 1</a>
+            <a href="https://wa.me/+6283837104931?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 3</a>
+        </div>
+    </div>
+
+    <!-- MODELLING & SKIN -->
+    <div class="section-title">🏗️ MODELLING & SKIN</div>
+    
+    <div class="item-card">
+        <div class="item-info"><span>🏗️ Modelling</span> <span class="price">10K</span></div>
+        <a href="https://wa.me/+6283194630764?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Sekarang</a>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>👕 Custom Skin</span> <span class="price">5K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 2</a>
+            <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 1</a>
+            <a href="https://wa.me/+62895426511826?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 4</a>
+            <a href="https://wa.me/+6285893096121?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 5</a>
+        </div>
+    </div>
+
+    <div class="item-card">
+        <div class="item-info"><span>🔄 Remake Skin</span> <span class="price">4K</span></div>
+        <div class="btn-group">
+            <a href="https://wa.me/+6285138507266?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 2</a>
+            <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 1</a>
+            <a href="https://wa.me/+62895426511826?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 4</a>
+            <a href="https://wa.me/+6285893096121?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Admin 5</a>
+        </div>
+    </div>
+
+    <!-- MARKETPLACE -->
+    <div class="section-title">🛒 MARKETPLACE MINECRAFT</div>
+    <div class="item-card">
+        <div class="item-info"><span>🗺️ Map Marketplace</span> <span class="price">80K</span></div>
+        <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Owner</a>
+    </div>
+    <div class="item-card">
+        <div class="item-info"><span>⚙️ Add-on Marketplace</span> <span class="price">50K</span></div>
+        <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Owner</a>
+    </div>
+    <div class="item-card">
+        <div class="item-info"><span>🎭 Addon Skin Marketplace</span> <span class="price">40K</span></div>
+        <a href="https://wa.me/+6285849090562?text=bang+owner+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order via Owner</a>
+    </div>
+
+    <!-- BUILD PROJECT -->
+    <div class="section-title">🏠 BUILD PROJECT</div>
+    <div class="item-card">
+        <div class="item-info"><span>🏠 Build Kecil</span> <span class="price">10K</span></div>
+        <a href="https://wa.me/+62895426511826?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Sekarang</a>
+    </div>
+    <div class="item-card">
+        <div class="item-info"><span>🏢 Build Sedang</span> <span class="price">20K</span></div>
+        <a href="https://wa.me/+62895426511826?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Sekarang</a>
+    </div>
+    <div class="item-card">
+        <div class="item-info"><span>🏰 Build Besar</span> <span class="price">30K</span></div>
+        <a href="https://wa.me/+62895426511826?text=bang+ᴍᴀᴜ+ᴏʀᴅᴇʀ+dong" class="btn-order">Order Sekarang</a>
+    </div>
+
+    <!-- PEMBAYARAN -->
+    <div class="payment-info">
+        <h3>💳 METODE PEMBAYARAN</h3>
+        <p>📱 <strong>GOPAY / DANA:</strong> 085849090562</p>
+        <p>📧 <strong>Email:</strong> gmparkershop123@gmail.com</p>
+    </div>
+
+    <!-- COMMUNITY -->
+    <div class="section-title">🌐 JOIN COMMUNITY</div>
+    <div class="social-links">
+        <a href="https://whatsapp.com/channel/0029Vb7e9FM9WtC2gE3Zhs03" class="social-btn">📢 Saluran WA</a>
+        <a href="https://chat.whatsapp.com/JRyK2yAoM4v2LmIjIqHnbg" class="social-btn">👥 Grup Chat</a>
+        <a href="https://tiktok.com/@gmparker.shop2" class="social-btn">📱 TikTok</a>
+        <a href="https://www.youtube.com/@GMPARKERSHOP" class="social-btn">🎥 YouTube</a>
+        <a href="https://www.instagram.com/gmparkershop?igsh=MTd0emE3d2x0amo2cw==" class="social-btn">📷 Instagram</a>
+    </div>
+
+    <footer>
+        &copy; 2024 GMPARKER SHOP. All Rights Reserved.
+    </footer>
+</div>
+
+</body>
+</html>
